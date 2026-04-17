@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api } from "../../lib/api";
-import type { ApplicationWithAspirante, PaginatedResponse } from "@prolace/types";
+import type { ApplicationWithAspirante, PaginatedResponse } from "../../types";
 
 const ESTADOS = ["Pendiente", "En_revision", "Aceptado", "Rechazado"];
 const LABELS: Record<string, string> = {

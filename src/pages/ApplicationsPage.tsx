@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { api } from "../lib/api";
-import type { Application } from "@prolace/types";
+import type { Application } from "../types";
 
 const STATUS_COLORS: Record<string, string> = {
   Pendiente: "bg-yellow-100 text-yellow-800",

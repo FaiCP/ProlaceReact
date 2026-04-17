@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../lib/api";
-import type { Order, PaginatedResponse } from "@prolace/types";
+import type { Order, PaginatedResponse } from "../types";
 
 const STATUS_COLORS: Record<string, string> = {
   Pendiente: "bg-yellow-100 text-yellow-800",

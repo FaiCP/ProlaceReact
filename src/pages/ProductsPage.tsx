@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../lib/api";
-import type { Product, PaginatedResponse } from "@prolace/types";
+import type { Product, PaginatedResponse } from "../types";
 
 type ProductsResponse = PaginatedResponse<Product>;
 

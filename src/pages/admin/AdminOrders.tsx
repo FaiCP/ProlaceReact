@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api } from "../../lib/api";
-import type { OrderWithUsuario, PaginatedResponse } from "@prolace/types";
+import type { OrderWithUsuario, PaginatedResponse } from "../../types";
 
 const ESTADOS = ["Pendiente", "Despachado", "Entregado", "Cancelado"];
 

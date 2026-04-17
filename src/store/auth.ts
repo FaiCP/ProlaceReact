@@ -1,9 +1,9 @@
 import { create } from "zustand";
 import { api } from "../lib/api";
-import type { AuthUser } from "@prolace/types";
+import type { AuthUser } from "../types";
 
 export type { AuthUser };
-export type { UserRole } from "@prolace/types";
+export type { UserRole } from "../types";
 
 interface AuthState {
   user: AuthUser | null;

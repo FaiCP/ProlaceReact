@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { useAuthStore } from "../store/auth";
-import type { UserRole } from "@prolace/types";
+import type { UserRole } from "../types";
 
 interface Props {
   children: React.ReactNode;

@@ -3,7 +3,7 @@ import { useQuery, useMutation } from "@tanstack/react-query";
 import { useState } from "react";
 import { api } from "../lib/api";
 import { useAuthStore } from "../store/auth";
-import type { Product, SingleResponse } from "@prolace/types";
+import type { Product, SingleResponse } from "../types";
 
 export default function ProductDetailPage() {
   const { id } = useParams<{ id: string }>();

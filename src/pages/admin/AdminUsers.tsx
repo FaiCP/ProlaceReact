@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api } from "../../lib/api";
-import type { Usuario, PaginatedResponse } from "@prolace/types";
+import type { Usuario, PaginatedResponse } from "../../types";
 
 const ROLE_LABELS: Record<number, string> = { 1: "Cliente", 2: "Admin", 3: "Aspirante" };
 
