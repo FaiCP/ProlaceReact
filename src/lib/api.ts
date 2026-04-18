@@ -2,7 +2,10 @@ import axios from "axios";
 
 export const api = axios.create({
   baseURL: "/api/v1",
-  withCredentials: true
+  withCredentials: true,
+  headers: {
+    "ngrok-skip-browser-warning": "true"
+  }
 });
 
 let csrfToken: string | null = null;
